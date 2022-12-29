@@ -1,0 +1,61 @@
+body{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://us.123rf.com/450wm/televisor555/televisor5551703/televisor555170300052/73325163-summer-vertical-landscape-with-place-for-text-optimistic-summer-countryside-background-with-place-fo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.current{
+    text-align: center;
+}
+.hourly, .daily{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    opacity: 10;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    height: 7px;
+    width: 60px;
+}
+.desc{
+    font-size: 20px;
+
+}
+.feels{
+    font-size: 46px;
+}
+.hourly{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    overflow: scroll;
+    margin: 40px;
+}
+.align{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.day{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.week{
+    width: 100%;
+}
