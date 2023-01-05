@@ -1,5 +1,4 @@
-body{
-    height: fit-content;
+/* body{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +19,7 @@ body{
     border-radius: 15px;
     padding: 10px;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.8;   
 }
 .description{
     display: flex;
@@ -58,4 +57,57 @@ body{
 }
 .week{
     width: 100%;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: aqua;
+}
+.current{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title{
+    font-size: 4em;
+}
+.description, .feels{
+    font-size: 1.5em;
+}
+
+select{
+    height: 40px;
+    width: fit-content;
+    font-size: 2em;
+    border: none;
+    text-align: center;
+    background-color: aqua;
+}
+.hourly{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.hour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.daily{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.day{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
